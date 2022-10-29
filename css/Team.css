@@ -1,0 +1,339 @@
+@media screen and (max-width:767px){
+    .main-central-box {
+        margin-top:7vh;
+    }
+}
+
+.team-section1{
+    background: #eaeaea 9%;
+    z-index: -2;
+
+}
+.team-section2{
+    background: #0090DA;
+    z-index: -2;
+}
+.team-section3{
+    background: #c9e5ab;
+    z-index: -2;
+
+}
+.team-section4{
+    background: #eaeaea;
+    z-index: -2;
+}
+.team-section5{
+    background: #e3e16c;
+    z-index: -2;
+}
+.text{
+    text-align: center;
+}
+
+@media screen and (max-width:767px) {
+    .team-teach1 {
+        height: 18vh !important;
+    }
+}
+@media screen and (max-width:767px) {
+    .container-main{
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+        align-self: auto;
+        /*overflow: hidden;*/
+    }
+    .main-central-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding-top: 0;
+        margin-bottom: 5vh;
+        margin-left: 0;
+        margin-right: 0;
+        vertical-align: middle;
+    }
+    .team-teach1 {
+        display: flex;
+        justify-content: center;
+        max-width: 60vw;
+        height: auto;
+        margin: auto;
+    }
+    .img-responsive1 {
+
+    }
+    .text {
+        margin-right: -5vw;
+        margin-left: -5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
+}
+
+.img-responsive1{
+    position: relative;
+    height: 100%;
+    z-index: -1;
+}/*по размеру контейнера*/
+.team{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+#img-team-Airat-d, #img-team-Marat-d, #img-team-Ilnur-d, #img-team-Costya-d, #img-team-Alex-d, #img-team-Maxim-d, #img-team-Leysan-d, #img-team-Ilshat-d, #img-team-Denis-d{
+    width: 50%;
+}
+@media screen and (max-width:767px) {
+    #img-team-Airat-m, #img-team-Ilnur-m, #img-team-Alex-m, #img-team-Maxim-m, #img-team-Ilshat-m {
+        width: 100%;
+    }
+    #img-team-Costya-m, #img-team-Marat-m, #img-team-Denis-m, #img-team-Leysan-m {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1000px){
+    #img-team-teach2{
+        width: 150%;
+        padding-left: 5vw;
+    }
+}
+
+.main-text-h2{
+    margin-bottom: 0;
+    font-size: 3.5vh;
+    font-family: Geneva, sans-serif;
+    letter-spacing: 2px;
+    color: black;
+}
+.main-text-h2-white{
+    margin-bottom: 0;
+    font-size: 3.5vh;
+    font-family: Geneva, sans-serif;
+    letter-spacing: 2px;
+    color: white;
+}
+@media screen and (max-width:320px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    .main-text-h2, .main-text-h2-white{
+        font-size: 2.7vh;
+    }
+}
+@media screen and (min-width: 321px) and (max-width:375px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    .main-text-h2, .main-text-h2-white{
+        font-size: 2.8vh;
+    }
+}
+@media screen and (min-width: 376px) and (max-width:426px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    .main-text-h2, .main-text-h2-white{
+        font-size: 2.9vh;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:955px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    .main-text-h2, .main-text-h2-white{
+        font-size: 2.8vh;
+    }
+}
+
+.main-text-h3 {
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 2.5vh;
+    line-height: 1.5;
+    margin-top: 6vh;
+    margin-bottom: 9vh;
+    color: black;
+}
+.main-text-h3-white{
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 2.5vh;
+    line-height: 1.5;
+    margin-top: 6vh;
+    margin-bottom: 9vh;
+    color: white;
+}
+@media screen and (max-width:320px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    .main-text-h3, .main-text-h3-white {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        margin-top: 2.5vh;
+        margin-bottom: 3vh;
+        font-size: 2vh;
+    }
+}
+@media screen and (min-width: 321px) and (max-width:375px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    .main-text-h3, .main-text-h3-white {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        margin-top: 2vh;
+        margin-bottom: 3vh;
+        font-size: 2.1vh;
+    }
+}
+@media screen and (min-width: 376px) and (max-width:426px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    .main-text-h3, .main-text-h3-white {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        margin-top: 2vh;
+        margin-bottom: 3vh;
+        font-size: 2.2vh;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1100px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    .main-text-h3, .main-text-h3-white {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        margin-top: 2vh;
+        margin-bottom: 3vh;
+        font-size: 2.1vh;
+    }
+}
+
+#col-team-teach2{
+    margin-top: -5vh;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    /*height: 5.4vh;*/
+}
+@media screen and (max-width:767px){
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+}
+.order{
+    border: none;
+    background-color: transparent;
+    height: 5.4vh;
+    padding-left: 0;
+    margin-right: 2vw;
+}
+#team-central-button{
+    margin-left: -7vw;
+}
+@media screen and (min-width:768px) and (max-width:800px){
+    #team-central-button{
+        margin-left: -9vw;
+    }
+}
+@media screen and (min-width:801px) and (max-width:850px){
+    #team-central-button{
+        margin-left: -8vw;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:2000px){
+    #team-central-button{
+        margin-left: -5vw;
+    }
+}
+@media screen and (min-width:2001px){
+    #team-central-button{
+        margin-left: -4.5vw;
+    }
+}
+.more{
+    border: none;
+    background-color: transparent;
+    height: 5.4vh;
+    padding-left: 0;
+}
+.become{
+    border: none;
+    background-color: transparent;
+    height: 5.4vh;
+    padding-left: 0;
+    margin-right: 3vw;
+}
+.how{
+    border: none;
+    background-color: transparent;
+    height: 5.4vh;
+    padding-left: 0;
+}
+.script{
+    border: none;
+    background-color: transparent;
+    height: 5.4vh;
+    padding-left: 0;
+}
+.img-responsive2{
+    height: 100%;
+}/*по размеру контейнера*/
+@media screen and (max-width:320px){
+    .order, .become {
+        width: 38vw;
+        margin-left: -1vw;
+        height: auto;
+    }
+    .more, .script, .how {
+        width: 38vw;
+        height: auto;
+    }
+}
+@media screen and (min-width: 321px) and (max-width:375px){
+    .order, .become {
+        width: 45vw;
+        margin-left: -1vw;
+        height: auto;
+    }
+    .more, .script, .how {
+        width: 45vw;
+        height: auto;
+    }
+}
+@media screen and (min-width: 376px) and (max-width:426px){
+    .order, .become {
+        width: 38vw;
+        margin-left: -1vw;
+        height: auto;
+    }
+    .more, .script, .how {
+        width: 38vw;
+        height: auto;
+    }
+}
+@media screen and (min-width:427px) and (max-width:767px) {
+    .order, .become {
+        width: 40vw;
+        margin-left: -1vw;
+    }
+    .more, .script, .how {
+        width: 40vw;
+    }
+}
