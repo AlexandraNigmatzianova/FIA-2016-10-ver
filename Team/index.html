@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>FutureInApps</title>
+    <meta name="viewport" content="user-scalable=no,width=device-width">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" href="/images/Logo/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,500&subset=cyrillic,cyrillic-ext"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/jquery.fullPage.css"/>
+
+    <link rel="stylesheet" type="text/css" href="/css/StyleCommon.css">
+    <link rel="stylesheet" type="text/css" href="/css/Team.css"/>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
+
+    <script src="/js/jquery-3.0.0.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.fullPage.js"></script>
+
+
+    <script id="teamSectionTemplateDesktop" type="text/template">
+        <div class="section team-section1">
+            <div class="container-fluid container-main">
+                <div class="row main-central-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Airat.svg" id="img-team-Airat-d">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Айрат Галиуллин</h2>
+                            <h3 class="main-text-h3">Генеральный директор</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 hidden-xs col-text">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Marat.svg" id="img-team-Marat-d">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Марат Галиуллин</h2>
+                            <h3 class="main-text-h3">Директор отдела мобильной разработки</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section team-section2">
+            <div class="container-fluid container-main">
+                <div class="row main-central-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Ilnur.svg" id="img-team-Ilnur-d">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Ильнур Галиев</h2>
+                            <h3 class="main-text-h3">Директор отдела веб-разработки</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-xs col-text">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Costya.svg" id="img-team-Costya-d">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Констатин Штанько</h2>
+                            <h3 class="main-text-h3">Директор отдела веб-дизайна</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section team-section3">
+            <div class="container-fluid container-main">
+                <div class="row main-central-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Alex.svg" id="img-team-Alex-d">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Александра Нигматзянова</h2>
+                            <h3 class="main-text-h3">Ведущий веб-разработчик</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Maxim.svg" id="img-team-Maxim-d">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Максим Романов</h2>
+                            <h3 class="main-text-h3">Ведущий веб-разработчик</h3>
+                        </div>
+                    </div>
+                    <!--div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-xs col-text">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Kirill.svg" id="img-team-Kirill-d">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Кирилл Трифонов</h2>
+                            <h3 class="main-text-h3">Ведущий веб-разработчик</h3>
+                        </div>
+                    </div-->
+                </div>
+            </div>
+        </div>
+        <div class="section team-section5">
+            <div class="container-fluid container-main">
+                <div class="row main-central-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/pikachu.svg" id="img-team-Ilshat-d">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Ильшат Валиахметов</h2>
+                            <h3 class="main-text-h3">Ведущий ios-разработчик</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-xs col-text">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/mickey-mouse.svg" id="img-team-Denis-d">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Денис Федотов</h2>
+                            <h3 class="main-text-h3">Ведущий android-разработчик</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section team-section4">
+            <div class="container-fluid container-main">
+                <div class="row main-central-box">
+                    <!--div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Maxim.svg" id="img-team-Maxim-d">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Максим Романов</h2>
+                            <h3 class="main-text-h3">Ведущий веб-разработчик</h3>
+                        </div>
+                    </div-->
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs col-text">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Leysan.svg" id="img-team-Leysan-d">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Лейсан Нургалиева</h2>
+                            <h3 class="main-text-h3">Ведущий специалист по маркетингу</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script id="teamSectionTemplateMobile" type="text/template">
+        <div class="section team-section1">
+            <div class="container-fluid container-main">
+                <div class="row main-central-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Airat.svg" id="img-team-Airat-m">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Айрат Галиуллин</h2>
+                            <h3 class="main-text-h3">Генеральный директор</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section team-section1">
+            <div class="container-fluid container-main">
+                <div class="row main-central-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-lg hidden-md hidden-sm col-text">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Marat.svg" id="img-team-Marat-m">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Марат Галиуллин</h2>
+                            <h3 class="main-text-h3">Директор отдела мобильной разработки</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section team-section2">
+            <div class="container-fluid container-main">
+                <div class="row main-central-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Ilnur.svg" id="img-team-Ilnur-m">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Ильнур Галиев</h2>
+                            <h3 class="main-text-h3">Директор отдела веб-разработки</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section team-section2">
+            <div class="container-fluid container-main">
+                <div class="row main-central-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-lg hidden-md hidden-sm col-text">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Costya.svg" id="img-team-Costya-m">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Констатин Штанько</h2>
+                            <h3 class="main-text-h3">Директор отдела веб-дизайна</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section team-section3">
+            <div class="container-fluid container-main">
+                <div class="row main-central-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Alex.svg" id="img-team-Alex-m">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Александра Нигматзянова</h2>
+                            <h3 class="main-text-h3">Ведущий веб-разработчик</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section team-section3">
+            <div class="container-fluid container-main">
+                <div class="row main-central-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Maxim.svg" id="img-team-Maxim-m">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Максим Романов</h2>
+                            <h3 class="main-text-h3">Ведущий веб-разработчик</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section team-section5">
+            <div class="container-fluid container-main">
+                <div class="row main-central-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/pikachu.svg" id="img-team-Ilshat-m">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Ильшат Валиахметов</h2>
+                            <h3 class="main-text-h3">Ведущий ios-разработчик</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section team-section5">
+            <div class="container-fluid container-main">
+                <div class="row main-central-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-lg hidden-md hidden-sm col-text">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/mickey-mouse.svg" id="img-team-Denis-m">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Денис Федотов</h2>
+                            <h3 class="main-text-h3">Ведущий android-разработчик</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section team-section4">
+            <div class="container-fluid container-main">
+                <div class="row main-central-box">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-lg hidden-md hidden-sm col-text">
+                        <div class="team">
+                            <img class="img-responsive1" src="/images/TeamSVG/Leysan.svg" id="img-team-Leysan-m">
+                        </div>
+                        <div class="text">
+                            <h2 class="main-text-h2">Лейсан Нургалиева</h2>
+                            <h3 class="main-text-h3">Ведущий специалист по маркетингу</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/javascript">
+        function init() {
+            console.log($(window).width());
+            var maxXs = 810;
+            var htmlFullPage = '';
+            if ($(document).width() > maxXs) {
+                console.log($(window).width(), "> maxXs", "desktop");
+                htmlFullPage = $('#teamSectionTemplateDesktop').html();
+            } else {
+                console.log($(window).width(), "< maxXs", "mobile");
+                htmlFullPage = $('#teamSectionTemplateMobile').html()
+            }
+            var domHtmlFullPage = $(htmlFullPage);
+            console.log(domHtmlFullPage, $('#full-page'));
+            domHtmlFullPage.appendTo('#full-page');
+        }
+        $(document).ready(function () {
+            init();
+            $(window).resize(init);
+            $("#full-page").fullpage({
+                anchors: ['page0', 'page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9'],
+                navigation: true,
+                loopTop: true,
+                loopBottom: true,
+                fitToSection: true,
+
+                onLeave: function (index, nextIndex, direction) {
+                    var maxXs = 810;
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-fixed">
+    <div class="container-fluid" id="container-navbar-header">
+        <div class="navbar-header">
+            <div class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <!-- collapsed- type="button" -->
+                <div class="button-mobile">
+                    <img class="menu-mobile" src="/images/buttonsSVG/menu-icon-black.svg"/>
+                </div>
+            </div>
+            <a href="/">
+                <button class="navbar-brand">
+                    <img id="img-navbar-brand" class=img-responsive3 href="/" src="/images/Logo/black1.svg"/>
+                </button>
+            </a>
+            <div class="Menu720">
+                <div class="Menu720-header">
+                    <div class="contactMenu720">
+                        <div class="contactMenu720-header">
+                            <div class="icon-close-menu720">
+                                <img src="/images/buttonsSVG/arrow.svg">
+                            </div>
+                            <div>
+                                <img class=img-responsive6 src="/images/Logo/white2.svg"/>
+                            </div>
+                        </div>
+                        <div class="contactMenu720-text">
+                            <h2 id="contactMenu720-h2">Контакты:</h2>
+                            <p id="contactMenu720-p">г.Казань, ул.Правобулачная 13<br>
+                                <a class="contact-menu-mail" href="mailto:info@futureinapps.com">почта:
+                                    info@futureinapps.com</a><br>
+                                <a class="contact-menu-a" href="tel:+78432926370">тел: 8 (843) - 292-63-70</a><br>
+                                <a class="contact-menu-a" href="tel:+79272455558">тел: 8 (927) - 245-55-58</a>
+                            </p>
+                            <div class="social-images-m">
+                                <a href="https://vk.com/futureinapps">
+                                    <button class="contacts-social-images-m">
+                                        <img id="vk-m" class="img-responsive7-m"
+                                             src="/images/buttonsSVG/Vkontakte.svg"/>
+                                    </button>
+                                </a>
+                                <a href="https://fb.com/futureinapps">
+                                    <button class="contacts-social-images-m">
+                                        <img id="fb-m" class="img-responsive7-m" src="/images/buttonsSVG/Facebook.svg"/>
+                                    </button>
+                                </a>
+                                <!--a href="https://vk.com/futureinapps">
+                                    <button class="contacts-social-images-m">
+                                        <img id="ing-m" class="img-responsive7-m" src="/images/buttonsSVG/Instagram.svg"/>
+                                    </button>
+                                </a-->
+                            </div>
+                            <p id="contact-menu720-copyright">Copyright &copy; 2016 | Futureinapps | All Rights
+                                Reserved</p>
+                        </div>
+                    </div>
+                    <div class="icon-close-menu720">
+                        <img src="/images/buttonsSVG/arrow.svg">
+                    </div>
+                    <a href="/">
+                        <div>
+                            <img class=img-responsive5 src="/images/Logo/white2.svg"/>
+                        </div>
+                    </a>
+                </div>
+                <div class="Menu720-text">
+                    <div class="Menu720-list">
+                        <div><a id="servicesMain720" href="/Services">УСЛУГИ</a></div>
+                        <div><a id="scriptMain720" href="/Script">СЦЕНАРИЙ</a></div>
+                        <div><a id="projectsMain720" href="/Projects">ПРОЕКТЫ</a></div>
+                        <div><a id="trainingMain720" href="/Training">ОБУЧЕНИЕ</a></div>
+                        <div><a id="teamMain720" href="/Team">КОМАНДА</a></div>
+                        <div><a id="contactsMain720">КОНТАКТЫ</a></div>
+                    </div>
+                    <p id="menu720-copyright">Copyright &copy; 2016 | Futureinapps | All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav">
+                <li><a href="/Services">УСЛУГИ</a></li>
+                <li><a href="/Script">СЦЕНАРИЙ</a></li>
+                <li><a href="/Projects">ПРОЕКТЫ</a></li>
+                <li><a href="/Training">ОБУЧЕНИЕ</a></li>
+                <li><a class="active-part" href="/Team">КОМАНДА</a></li>
+                <li><a id="contactsMain"> < КОНТАКТЫ</a></li>
+            </ul>
+        </div>
+        <div class="contactMenu">
+            <div class="contactMenu-header">
+                <div class="icon-close">
+                    <img src="/images/buttonsSVG/arrow.svg">
+                </div>
+                <div>
+                    <img class=img-responsive4 src="/images/Logo/white2.svg"/>
+                </div>
+            </div>
+            <div class="contactMenu-text">
+                <h2 id="contactMenu-h2">Контакты:</h2>
+                <p id="contactMenu-p">г.Казань, ул.Правобулачная 13<br>
+                    <a class="contact-menu-mail" href="mailto:info@futureinapps.com">почта:
+                        info@futureinapps.com</a><br>
+                    <a class="contact-menu-a" href="tel:+78432926370">тел: 8 (843) - 292-63-70</a><br>
+                    <a class="contact-menu-a" href="tel:+79272455558">тел: 8 (927) - 245-55-58</a></p>
+                <div class="social-images-d">
+                    <a href="https://vk.com/futureinapps">
+                        <button class="contacts-social-images-d">
+                            <img id="vk-d" class="img-responsive7-d" src="/images/buttonsSVG/Vkontakte.svg"/>
+                        </button>
+                    </a>
+                    <a href="https://fb.com/futureinapps">
+                        <button class="contacts-social-images-d">
+                            <img id="fb-d" class="img-responsive7-d" src="/images/buttonsSVG/Facebook.svg"/>
+                        </button>
+                    </a>
+                    <!--a href="https://vk.com/futureinapps">
+                        <button class="contacts-social-images-d">
+                            <img id="ing-d" class="img-responsive7-m" src="/images/buttonsSVG/Instagram.svg"/>
+                        </button>
+                    </a-->
+                </div>
+                <p id="contact-copyright">Copyright &copy; 2016 | Futureinapps | All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div id="full-page">
+</div>
+
+<footer class="footer footer-fixed">
+    <div class="container-fluid container-footer">
+        <button id="button-down" type="button" class="down">
+            <img class="nav-buttons" src="/images/buttonsSVG/down.svg">
+        </button>
+        <h6 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs" id="copyright">Copyright &copy; 2016 |
+            Futureinapps | All Rights Reserved</h6>
+    </div>
+</footer>
+
+
+<script src="/js/appcontact.js"></script>
+<script src="/js/appcontactmobile.js"></script>
+<script src="/js/appmenumobile.js"></script>
+<script src="/js/downpage-team.js"></script>
+
+</body>
+</html>
